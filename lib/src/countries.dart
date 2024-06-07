@@ -41,9 +41,9 @@ class Countries {
   static List<Country> get list => _list;
   static List<Country> get tr => _tr;
   static List<Country> get de => _de;
-  static List<Country> get sp => _sp;
+  static List<Country> get es => _es;
   static List<Country> get hi => _hi;
-  static List<Country> get ce => _ce;
+  static List<Country> get zh => _zh;
 
   static final List<Country> _list = [
     {"name": "Afghanistan", "dialCode": "+93", "isoCode": "AF"},
@@ -929,7 +929,7 @@ class Countries {
   {"name": "ज़ाम्बिया", "dialCode": "+260", "isoCode": "ZM"},
   {"name": "ज़िम्बाब्वे", "dialCode": "+263", "isoCode": "ZW"},
   ].map((e) => Country.from(e)).toList();
-  static List<Country> _sp = [
+  static List<Country> _es = [
   {"name": "Afganistán", "dialCode": "+93", "isoCode": "AF"},
   {"name": "Albania", "dialCode": "+355", "isoCode": "AL"},
   {"name": "Argelia", "dialCode": "+213", "isoCode": "DZ"},
@@ -1122,7 +1122,7 @@ class Countries {
   {"name": "Zambia", "dialCode": "+260", "isoCode": "ZM"},
   {"name": "Zimbabue", "dialCode": "+263", "isoCode": "ZW"},
   ].map((e) => Country.from(e)).toList();
-  static List<Country> _ce = [
+  static List<Country> _zh = [
   {"name": "阿富汗", "dialCode": "+93", "isoCode": "AF"},
   {"name": "阿尔巴尼亚", "dialCode": "+355", "isoCode": "AL"},
   {"name": "阿尔及利亚", "dialCode": "+213", "isoCode": "DZ"},
